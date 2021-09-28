@@ -1,0 +1,137 @@
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../assets/hero-wallpaper.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    h1 {
+        color: gold;
+        font-size: 3rem;
+        font-family: 'Cinzel', serif;
+        padding-bottom: 1.5rem;
+        text-transform: uppercase;
+    }
+    p {
+        color: gold;
+        font-size: 2rem;
+        text-transform: capitalize;
+    }
+    .hero-div {
+        margin: 0 auto;
+        width: 60%;
+        text-align: center;
+        padding: 29rem 0;
+    }
+}
+
+.info-section {
+    background-color: #F5E3D7;
+    h2 {
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+        font-family: 'Cinzel', serif;
+        line-height: 1.4;
+        padding-bottom: 2rem;
+    }
+    p {
+        padding-top: 1rem;
+        font-size: 1.2rem;
+        color: rgb(87, 85, 85);
+    }
+    .facts {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #000;
+    }
+    .flex-33 {
+        &:hover{
+            transform: perspective(300px) translateZ(20px);
+        }
+    }
+    .flex-33 img{
+        height: 100%;
+    }
+    .flex-60 {
+        padding-right: 3rem;
+        &:hover{
+            transform: perspective(300px) translateZ(20px);
+        }
+    }
+}
+
+.topper-section {
+    background-color: rgb(180, 196, 180);
+    h2{
+        font-size: 3rem;
+        font-family: 'Cinzel', serif;
+        font-weight: 700;
+        text-align: center;
+        padding-bottom: 1.5rems;
+    }
+    p {
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 600;
+        padding: 1rem 0;
+    }
+    img {
+        object-fit: cover;
+        height: 20rem;
+    }
+    .flex-23 {
+        border: 1px solid black;
+        margin-top: 2rem;
+        position: relative;
+        &:hover {
+            transform: perspective(300px) translateZ(20px);
+        }
+        &:hover .student-box {
+            visibility: visible;
+        }
+        h3 {
+            font-size: 1.5rem;
+            text-align: center;
+            font-family: 'Cinzel', serif;
+            padding: 1rem 0;
+        }
+        p{
+            font-size: 1.2rem;
+            padding: 1rem 0;
+        }
+        .student-box {
+            width: 94.5%;
+            background-color: rgba(255,255,255, 0.8);;
+            padding: 0.50rem;
+            font-size: 1.5rem;
+            position: absolute;
+            top: 65%;
+            visibility: hidden;
+            i {
+                color: black;
+            }
+        }
+
+    }
+    
+}
+
+.campus-section {
+    background-color: #F5E3D7;
+    h2 {
+        font-size: 3rem;
+        font-family: 'Cinzel', serif;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .flex-60{
+        h3 {
+            font-size: 2.2rem;
+            padding-bottom: 1.5rem;
+        }
+        p {
+            line-height: 1.1;
+            font-size: 1.5rem;
+        }
+    }
+}

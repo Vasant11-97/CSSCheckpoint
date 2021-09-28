@@ -1,0 +1,465 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.flex-20 {
+  flex: 0 1 20%;
+}
+
+.flex-23 {
+  flex: 0 1 23%;
+}
+
+.flex-25 {
+  flex: 0 1 25%;
+}
+
+.flex-30 {
+  flex: 0 1 30%;
+}
+
+.flex-33 {
+  flex: 0 1 33%;
+}
+
+.flex-40 {
+  flex: 0 1 40%;
+}
+
+.flex-45 {
+  flex: 0 1 45%;
+}
+
+.flex-48 {
+  flex: 0 1 48%;
+}
+
+.flex-50 {
+  flex: 0 1 50%;
+}
+
+.flex-60 {
+  flex: 0 1 60%;
+}
+
+.flex-75 {
+  flex: 0 1 75%;
+}
+
+.flex-80 {
+  flex: 0 1 80%;
+}
+
+.padding {
+  padding: 4rem 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-content {
+  justify-content: space-between;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.width {
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../assets/hero-wallpaper.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+}
+.hero-section h1 {
+  color: gold;
+  font-size: 3rem;
+  font-family: "Cinzel", serif;
+  padding-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+.hero-section p {
+  color: gold;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.hero-section .hero-div {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+  padding: 29rem 0;
+}
+
+.info-section {
+  background-color: #F5E3D7;
+}
+.info-section h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  line-height: 1.4;
+  padding-bottom: 2rem;
+}
+.info-section p {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  color: #575555;
+}
+.info-section .facts {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+}
+.info-section .flex-33:hover {
+  transform: perspective(300px) translateZ(20px);
+}
+.info-section .flex-33 img {
+  height: 100%;
+}
+.info-section .flex-60 {
+  padding-right: 3rem;
+}
+.info-section .flex-60:hover {
+  transform: perspective(300px) translateZ(20px);
+}
+
+.topper-section {
+  background-color: #b4c4b4;
+}
+.topper-section h2 {
+  font-size: 3rem;
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 1.5rems;
+}
+.topper-section p {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+  padding: 1rem 0;
+}
+.topper-section img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 20rem;
+}
+.topper-section .flex-23 {
+  border: 1px solid black;
+  margin-top: 2rem;
+  position: relative;
+}
+.topper-section .flex-23:hover {
+  transform: perspective(300px) translateZ(20px);
+}
+.topper-section .flex-23:hover .student-box {
+  visibility: visible;
+}
+.topper-section .flex-23 h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  padding: 1rem 0;
+}
+.topper-section .flex-23 p {
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+.topper-section .flex-23 .student-box {
+  width: 94.5%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 65%;
+  visibility: hidden;
+}
+.topper-section .flex-23 .student-box i {
+  color: black;
+}
+
+.campus-section {
+  background-color: #F5E3D7;
+}
+.campus-section h2 {
+  font-size: 3rem;
+  font-family: "Cinzel", serif;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.campus-section .flex-60 h3 {
+  font-size: 2.2rem;
+  padding-bottom: 1.5rem;
+}
+.campus-section .flex-60 p {
+  line-height: 1.1;
+  font-size: 1.5rem;
+}
+
+.header {
+  padding: 1rem 0;
+  background-color: rgba(175, 163, 94, 0.65);
+}
+.header .brand a {
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  color: #000;
+  font-size: 2rem;
+}
+.header li a {
+  margin-left: 1rem;
+  color: #000;
+}
+.header li a:hover {
+  color: orangered;
+}
+
+.footer {
+  background-color: rgba(175, 163, 94, 0.65);
+}
+.footer a {
+  color: black;
+  margin: 0rem 1rem;
+}
+
+.sports-page .sports-heading {
+  background-image: url(../../assets/sportsbg.png);
+}
+.sports-page h1 {
+  text-align: center;
+  font-family: "Cinzel", serif;
+  padding-top: 15rem;
+}
+.sports-page h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Cinzel", serif;
+  padding-bottom: 2rem;
+  font-weight: 600;
+}
+.sports-page p {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem;
+}
+.sports-page .flex-23 {
+  margin-top: 3rem;
+}
+.sports-page .flex-23:hover {
+  transform: perspective(300px) translateZ(20px);
+}
+.sports-page .flex-23 img {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sports-page .flex-23 img:hover {
+  border-radius: 50%;
+}
+.sports-page .cube-section img {
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sports-page .cube-section .wrap-box {
+  width: 250px;
+  height: 250px;
+  margin: 120px auto;
+  position: relative;
+}
+.sports-page .cube-section .cube-3d {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  position: absolute;
+  transform: translateZ(-100px);
+  transform-style: preserve-3d;
+  perspective: 400;
+}
+.sports-page .cube-section .side {
+  border: 2px solid #2db34a;
+  height: 196px;
+  position: absolute;
+  width: 196px;
+  text-align: center;
+}
+.sports-page .cube-section .front {
+  transform: translateZ(100px);
+  background-color: rgba(241, 95, 95, 0.507);
+}
+.sports-page .cube-section .back {
+  transform: rotateX(180deg) translateZ(100px);
+  background-color: rgba(177, 212, 78, 0.589);
+}
+.sports-page .cube-section .left {
+  transform: rotateY(-90deg) translateZ(100px);
+  background-color: rgba(243, 152, 73, 0.637);
+}
+.sports-page .cube-section .right {
+  transform: rotateY(90deg) translateZ(100px);
+  background-color: rgba(47, 186, 241, 0.555);
+}
+.sports-page .cube-section .top {
+  transform: rotateX(90deg) translateZ(100px);
+  background-color: rgba(255, 99, 71, 0.664);
+}
+.sports-page .cube-section .bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+  background-color: yellowgreen;
+}
+.sports-page .cube-section .cube-3d:hover {
+  -webkit-animation: cubeRotation 5s infinite;
+  animation: cubeRotation 5s infinite;
+}
+@-webkit-keyframes cubeRotation {
+  0% {
+    transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);
+  }
+  50% {
+    transform: rotateX(278deg) rotateY(31deg) rotateZ(143deg);
+  }
+  100% {
+    transform: rotateX(-22deg) rotateY(-398deg) rotateZ(0deg);
+  }
+}
+@keyframes cubeRotation {
+  0% {
+    transform: rotateX(-22deg) rotateY(-38deg) rotateZ(0deg);
+  }
+  50% {
+    transform: rotateX(278deg) rotateY(31deg) rotateZ(143deg);
+  }
+  100% {
+    transform: rotateX(-22deg) rotateY(-398deg) rotateZ(0deg);
+  }
+}
+
+.art h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.art .flex-48 h2 {
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+.art .flex-48 p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.art .flex-48:hover {
+  transform: perspective(300px) translateZ(20px);
+}
+.art .art-section-3 h3 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 2rem;
+}
+.art .art-section-3 img {
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.art .art-section-3 .flex-23:hover {
+  transform: perspective(300px) translateZ(20px);
+}
+.art .art-section-4 h4 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 3rem;
+}
+.art .art-section-4 .flex-48 {
+  margin: 2rem 0;
+}
+.art .art-section-4 .flex-48 p {
+  font-size: 1.2rem;
+  line-height: 1.3;
+}
+.art .art-section-4 .flex-48 img {
+  border-radius: 40px;
+}
+.art .art-section-4 .flex-48 h5 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+.art .art-section-4 .flex-48:hover {
+  transform: perspective(300px) translateZ(20px);
+}/*# sourceMappingURL=style.css.map */
