@@ -121,4 +121,41 @@
               transform: rotateX(-22deg) rotateY(-398deg) rotateZ(0deg);
             }
     }
-}}
+}
+}
+
+@media screen and (max-width: 768px) {
+  .flex {
+      flex-wrap: wrap;
+  }
+  html {
+      font-size: 10px;
+  }
+  .flex-48 {
+      flex: 0 1 100%;
+      margin-top: 1.5rem;
+      padding: 0 3rem;
+  }
+  .flex-23 {
+      flex: 0 1 48%;
+      margin-top: 1.5rem;
+  }
+  .sports-page {
+    padding: 0 3rem;
+  }
+  
+}
+@media screen and (max-width: 365) {
+  .flex-48 {
+    flex: 0 1 100%;
+    margin-top: 1.5rem;
+    padding: 0 1rem;
+  }
+  .flex-23 {
+    flex: 0 1 100%;
+    margin-top: 1.5rem;
+  }
+  .sports-page {
+    padding: 0 1rem;
+  }
+}

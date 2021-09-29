@@ -63,3 +63,21 @@
     }
     
 }
+
+@media screen and (max-width: 768px) {
+    .flex {
+        flex-wrap: wrap;
+    }
+    html {
+        font-size: 10px;
+    }
+    .flex-48 {
+        flex: 0 1 100%;
+        margin-top: 1.5rem;
+        padding: 0 3rem;
+    }
+    .flex-23 {
+        flex: 0 1 48%;
+        margin-top: 1.5rem;
+    }
+}
